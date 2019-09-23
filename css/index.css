@@ -163,12 +163,23 @@ img {
   height: auto;
 }
 nav {
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+header {
+  background-color: #173753;
 }
 header .top-header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+}
+header .top-header h1 {
+  color: #6DAEDB;
+}
+header .top-header a {
+  text-decoration: none;
+  color: #2892D7;
+  padding: 5px;
 }
 header .bottom-header {
   display: flex;
@@ -178,6 +189,15 @@ header .bottom-header {
 }
 header .bottom-header p {
   padding: 10px;
+  text-align: center;
+  color: white;
+  padding: 5px 0 30px;
+}
+header .bottom-header h2 {
+  border: 1px solid gray;
+  background: #6DAEDB;
+  border-radius: 5px;
+  padding: 5px;
 }
 .content .top-content {
   display: flex;
