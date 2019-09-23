@@ -165,12 +165,80 @@ img {
 nav {
   font-size: 2rem;
 }
-header {
-  border: solid red;
+header .top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
-.content {
-  border: solid green;
+header .bottom-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
-footer {
-  border: solid yellow;
+header .bottom-header p {
+  padding: 10px;
+}
+.content .top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.content .top-content p {
+  padding: 10px;
+}
+.content .middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.content .middle-content h2 {
+  padding: 10px;
+}
+.content .middle-content .midd-p {
+  display: flex;
+  flex-direction: row;
+}
+.content .middle-content .midd-p p {
+  margin: 0 50px 0;
+}
+.content .bottom-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.content .bottom-content h2 {
+  padding: 10px;
+}
+footer .footer-class {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+footer .footer-class .Product {
+  padding: 5px;
+}
+footer .footer-class .Product h2 {
+  padding: 5px;
+}
+footer .footer-class .Company {
+  padding: 5px;
+}
+footer .footer-class .Company h2 {
+  padding: 5px;
+}
+footer .footer-class .Company a {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+footer .footer-class .Community {
+  padding: 5px;
+}
+footer .copyright {
+  display: flex;
+  justify-content: center;
 }
